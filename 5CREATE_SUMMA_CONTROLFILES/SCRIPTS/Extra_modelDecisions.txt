@@ -1,0 +1,12 @@
+
+
+
+compaction		consettl anderson									(31) choice of compaction routine
+snowLayers		jrdn1991 CLM_2010									(32) choice of method to combine and sub-divide snow layers
+thCondSnow		tyen1965 melr1977 jrdn1991 smnv2000					(33) choice of thermal conductivity representation for snow
+thCondSoil		funcSoilWet mixConstit hanssonVZJ					(34) choice of thermal conductivity representation for soil
+canopySrad		noah_mp CLM_2stream UEB_2stream NL_scatter BeersLaw	(35) choice of method for canopy shortwave radiation
+alb_method		conDecay varDecay									(36) choice of albedo representation
+spatial_gw		localColumn singleBasin								(37) choice of method for spatial representation of groundwater
+subRouting		timeDlay qInstant									(38) choice of method for sub-grid routing
+snowDenNew		hedAndPom anderson pahaut_76 constDens				(39) choice of method for new snow density
